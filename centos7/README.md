@@ -1,5 +1,10 @@
 # CentOS 7 - Vagrant Provider Docker Image
 
+## Docker Image
+```
+docker pull mcwarman/vagrant-provider:centos7
+```
+
 ## Vagrant File
 ```
 ENV['VAGRANT_DEFAULT_PROVIDER'] = 'docker'
