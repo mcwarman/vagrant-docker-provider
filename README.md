@@ -4,6 +4,7 @@
 
 | OS                  | Image                               |
 |---------------------|-------------------------------------|
+| [CentOS 6](centos6) | `mcwarman/vagrant-provider:centos6` |
 | [CentOS 7](centos7) | `mcwarman/vagrant-provider:centos7` |
 
 ## Usage
