@@ -8,13 +8,13 @@
 
 ## Usage
 
-Update the `<image>` below in sample `Vagrantfile`:
+Update the `d.image` as required in sample `Vagrantfile`:
 ```
 ENV['VAGRANT_DEFAULT_PROVIDER'] = 'docker'
 
 Vagrant.configure("2") do |config|
   config.vm.provider "docker" do |d|
-    d.image = "<image>"
+    d.image = "mcwarman/vagrant-provider:centos7"
     d.has_ssh = true
   end
 end
