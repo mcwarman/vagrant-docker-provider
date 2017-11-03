@@ -17,7 +17,7 @@ RUN ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N ''
 
 RUN useradd --create-home -s /bin/bash vagrant
 RUN echo -e "vagrant\nvagrant" | (passwd --stdin vagrant)
-RUN echo 'vagrant ALL = NOPASSWD: ALL' > /etc/sudoers.d/vagrant
+RUN echo 'vagrant ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/vagrant
 RUN chmod 440 /etc/sudoers.d/vagrant
 
 RUN mkdir -p /home/vagrant/.ssh
