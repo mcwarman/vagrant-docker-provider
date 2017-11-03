@@ -1,5 +1,20 @@
 # Vagrant Provider Docker Image [![Docker Build](https://img.shields.io/docker/automated/mcwarman/interlok-hello-world.svg)](https://hub.docker.com/r/mcwarman/vagrant-provider/)
 
-| OS                            | Image                             |
-|-------------------------------|-----------------------------------|
-| [CentOS 7](centos7) | mcwarman/vagrant-provider:centos7 |
+## Images
+
+| OS                  | Image                               |
+|---------------------|-------------------------------------|
+| [CentOS 7](centos7) | `mcwarman/vagrant-provider:centos7` |
+
+## Usage
+
+Update the `<image>` below in sample `Vagrantfile`:
+```
+ENV['VAGRANT_DEFAULT_PROVIDER'] = 'docker'
+
+Vagrant.configure("2") do |config|
+  config.vm.provider "docker" do |d|
+    d.image = "<image>"
+    d.has_ssh = true
+  end
+end
