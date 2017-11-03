@@ -2,4 +2,4 @@
 
 | OS                            | Image                             |
 |-------------------------------|-----------------------------------|
-| [CentOS 7](centos7/README.md) | mcwarman/vagrant-provider:centos7 |
+| [CentOS 7](centos7) | mcwarman/vagrant-provider:centos7 |
