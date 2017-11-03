@@ -1,4 +1,4 @@
-# Vagrant Provider Docker Image [![Docker Build](https://img.shields.io/docker/automated/mcwarman/interlok-hello-world.svg)](https://hub.docker.com/r/mcwarman/vagrant-provider/)
+# Vagrant Provider Docker Images [![Docker Build](https://img.shields.io/docker/automated/mcwarman/interlok-hello-world.svg)](https://hub.docker.com/r/mcwarman/vagrant-provider/)
 
 ## Images
 
