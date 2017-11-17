@@ -4,6 +4,7 @@
 
 | OS                  | Image                               |
 |---------------------|-------------------------------------|
+| [Alpine](alpine)    | `mcwarman/vagrant-provider:alpine`  |
 | [CentOS 6](centos6) | `mcwarman/vagrant-provider:centos6` |
 | [CentOS 7](centos7) | `mcwarman/vagrant-provider:centos7` |
 
