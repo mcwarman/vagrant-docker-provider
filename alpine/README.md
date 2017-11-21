@@ -1,4 +1,4 @@
-# CentOS 7 - Vagrant Provider Docker Image
+# Alpine - Vagrant Provider Docker Image
 
 ## Docker Image
 ```
