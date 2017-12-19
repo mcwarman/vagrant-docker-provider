@@ -12,6 +12,7 @@
 ## Usage
 
 Update the `d.image` as required in sample `Vagrantfile`:
+
 ```
 ENV['VAGRANT_DEFAULT_PROVIDER'] = 'docker'
 
@@ -21,3 +22,4 @@ Vagrant.configure("2") do |config|
     d.has_ssh = true
   end
 end
+```
