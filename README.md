@@ -2,11 +2,12 @@
 
 ## Images
 
-| OS                  | Image                               |
-|---------------------|-------------------------------------|
-| [Alpine](alpine)    | `mcwarman/vagrant-provider:alpine`  |
-| [CentOS 6](centos6) | `mcwarman/vagrant-provider:centos6` |
-| [CentOS 7](centos7) | `mcwarman/vagrant-provider:centos7` |
+| OS                                    | Image                                       |
+|---------------------------------------|---------------------------------------------|
+| [Alpine](alpine)                      | `mcwarman/vagrant-provider:alpine`          |
+| [CentOS 6](centos6)                   | `mcwarman/vagrant-provider:centos6`         |
+| [CentOS 7](centos7/ssh)               | `mcwarman/vagrant-provider:centos7`         |
+| [CentOS 7 - systemd](centos7/systemd) | `mcwarman/vagrant-provider:centos7-systemd` |
 
 ## Usage
 
