@@ -20,7 +20,7 @@ ENV['VAGRANT_DEFAULT_PROVIDER'] = 'docker'
 
 Vagrant.configure("2") do |config|
   config.vm.provider "docker" do |d|
-    d.image = "mcwarman/vagrant-provider:centos6"
+    d.image = "mcwarman/vagrant-provider:alpine"
     d.has_ssh = true
   end
 end
