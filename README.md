@@ -4,10 +4,10 @@
 
 | OS                                    | Image                                       |
 |---------------------------------------|---------------------------------------------|
-| [Alpine](alpine)                      | `mcwarman/vagrant-provider:alpine`          |
-| [CentOS 6](centos6)                   | `mcwarman/vagrant-provider:centos6`         |
-| [CentOS 7](centos7/ssh)               | `mcwarman/vagrant-provider:centos7`         |
-| [CentOS 7 - systemd](centos7/systemd) | `mcwarman/vagrant-provider:centos7-systemd` |
+| [Alpine][alpine]                      | `mcwarman/vagrant-provider:alpine`          |
+| [CentOS 6][centos6]                   | `mcwarman/vagrant-provider:centos6`         |
+| [CentOS 7][centos7-ssh]               | `mcwarman/vagrant-provider:centos7`         |
+| [CentOS 7 - systemd][centos7-systemd] | `mcwarman/vagrant-provider:centos7-systemd` |
 
 ## Usage
 
@@ -66,3 +66,8 @@ Vagrant.configure("2") do |config|
   end
 end
 ```
+
+[alpine]:          https://github.com/mcwarman/vagrant-docker-provider/tree/master/alpine
+[centos6]:         https://github.com/mcwarman/vagrant-docker-provider/tree/master/centos6
+[centos7-ssh]:     https://github.com/mcwarman/vagrant-docker-provider/tree/master/centos7/ssh
+[centos7-systemd]: https://github.com/mcwarman/vagrant-docker-provider/tree/master/centos7/systemd
